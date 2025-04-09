@@ -1,0 +1,42 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #222;
+}
+header {
+  text-align: center;
+  padding: 1rem;
+  background-color: #D40000;
+  color: white;
+}
+.logo {
+  width: 60px;
+  height: 60px;
+}
+main {
+  padding: 1rem;
+}
+section {
+  display: none;
+}
+section.active {
+  display: block;
+}
+nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #D40000;
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5rem 0;
+}
+nav button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1rem;
+}
